@@ -1,0 +1,12 @@
+.container-main {
+  width: calc(100% - 30px);
+  max-width: 1200px;
+  height: 700px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .container-main {
+    margin-top: 30px;
+  }
+}
